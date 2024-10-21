@@ -1,0 +1,28 @@
+/* body {
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-weight: normal;
+  color: red;
+  text-decoration: line-through;
+}
+
+a {
+  text-decoration: none;
+}
+
+p.text {
+  font-weight: bold;
+  font-style: italic;
+  text-align: justify;
+} */
+
+.menu {
+  list-style: none;
+
+  & li::before {
+    content: "❤️ ";
+  }
+}
