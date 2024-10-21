@@ -1,9 +1,8 @@
-import logo from "./logo.svg";
-import "./App.css";
-import FormatPractice from "./components/FormatPractice";
+import CssCore from "./components/CssCore";
+import Html5Core from "./components/Html5Core";
 
 function App() {
-  return <FormatPractice />;
+  return <CssCore />;
 }
 
 export default App;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const FormatPractice = () => {
+const Html5Core = () => {
   return (
     <>
       {/* <h1>무의미한 한글 텍스트 생성기입니다.</h1>
@@ -9,6 +9,7 @@ const FormatPractice = () => {
       <h4>무의미한 한글 텍스트 생성기입니다.</h4>
       <h5>무의미한 한글 텍스트 생성기입니다.</h5>
       <h6>무의미한 한글 텍스트 생성기입니다.</h6> */}
+
       {/* <p>
         <b>국가는 평생교육</b>을 진흥하여야 한다. <em>국회</em>의 정기회는
         법률이 정하는 바에 의하여 매년 1회 집회되며, <u>국회의 임시회</u>는
@@ -32,6 +33,7 @@ const FormatPractice = () => {
         고용의 증진과 적정임금의 보장에 노력하여야 하며, 법률이 정하는 바에
         의하여 최저임금제를 시행하여야 한다.
       </p> */}
+
       {/* <ol>
         <li>방콕 쇼핑 리스트</li>
         <li>
@@ -44,6 +46,7 @@ const FormatPractice = () => {
         <li>방콕 맛집 리스트</li>
         <li>방콕 관광 리스트</li>
       </ol> */}
+
       <a href="https://www.naver.com">
         <img
           src="https://i.namu.wiki/i/O_WfY01sM81pAk50fxe-CgHx-pVnipkiexM-biFWhdIBezk7_xJfDiu7P8hzraM5oNm0r92GCaXrfoZ14RNHVg.svg"
@@ -64,4 +67,4 @@ const FormatPractice = () => {
   );
 };
 
-export default FormatPractice;
+export default Html5Core;

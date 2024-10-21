@@ -1,0 +1,46 @@
+/* body {
+  background-color: orange;
+}
+
+h1 {
+  font-size: 50px;
+  color: red;
+} */
+
+/* p {
+  text-align: center;
+  color: red;
+}
+
+p.center {
+  text-align: right;
+  color: blue;
+}
+
+#center {
+  text-align: left;
+  color: green;
+} */
+
+/* h1,
+p {
+  color: red;
+  text-align: center;
+  font-size: 30px;
+}
+
+p b {
+  color: blue;
+} */
+
+h1 {
+  color: red !important;
+
+  &.text {
+    color: blue;
+  }
+
+  &#text {
+    color: green;
+  }
+}
