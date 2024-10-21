@@ -19,10 +19,10 @@ p.text {
   text-align: justify;
 } */
 
-.menu {
+/* .menu {
   list-style: none;
 
   & li::before {
     content: "❤️ ";
   }
-}
+} */
