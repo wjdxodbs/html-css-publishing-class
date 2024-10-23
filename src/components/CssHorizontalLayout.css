@@ -1,0 +1,20 @@
+.parent {
+  background-color: dodgerblue;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  border: 5px solid red;
+  box-sizing: border-box;
+  /* display: flex;
+  justify-content: end;
+  align-items: end; */
+}
+
+.children {
+  background-color: gold;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  /* inset-inline: 0; */
+  top: 100%;
+}
