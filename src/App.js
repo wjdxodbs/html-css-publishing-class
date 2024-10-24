@@ -6,9 +6,10 @@ import CssBoxModel from "./components/CssBoxModel";
 import CssHorizontalLayout from "./components/CssHorizontalLayout";
 import KeyframeAnimation1 from "./components/KeyframeAnimation1";
 import KeyframeAnimation2 from "./components/KeyframeAnimation2";
+import KeyframeAnimation3 from "./components/KeyframeAnimation3";
 
 function App() {
-  return <KeyframeAnimation2 />;
+  return <KeyframeAnimation3 />;
 }
 
 export default App;
