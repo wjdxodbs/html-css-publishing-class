@@ -8,9 +8,10 @@ import KeyframeAnimation1 from "./components/KeyframeAnimation1";
 import KeyframeAnimation2 from "./components/KeyframeAnimation2";
 import KeyframeAnimation3 from "./components/KeyframeAnimation3";
 import HoverBasic from "./components/HoverBasic";
+import Hover1 from "./components/Hover1";
 
 function App() {
-  return <HoverBasic />;
+  return <Hover1 />;
 }
 
 export default App;
