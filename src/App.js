@@ -7,9 +7,10 @@ import CssHorizontalLayout from "./components/CssHorizontalLayout";
 import KeyframeAnimation1 from "./components/KeyframeAnimation1";
 import KeyframeAnimation2 from "./components/KeyframeAnimation2";
 import KeyframeAnimation3 from "./components/KeyframeAnimation3";
+import HoverBasic from "./components/HoverBasic";
 
 function App() {
-  return <KeyframeAnimation3 />;
+  return <HoverBasic />;
 }
 
 export default App;

@@ -1,0 +1,37 @@
+.hover-basic {
+  display: inline-block;
+
+  &:hover .dropdown-submenu {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+
+  & .dropdown-btn {
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: yellowgreen;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  & .dropdown-submenu {
+    display: none;
+    border: 1px solid #000;
+    width: 200px;
+    box-shadow: 0 0 5px #000;
+
+    & a {
+      color: #222;
+      text-decoration: none;
+      padding: 7px;
+      text-align: center;
+
+      &:hover {
+        background-color: #eee;
+      }
+    }
+  }
+}
