@@ -1,0 +1,46 @@
+.hover2 {
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  & .icon {
+    position: relative;
+
+    &:hover span {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    & img {
+      height: 200px;
+    }
+
+    & span {
+      position: absolute;
+      background-color: black;
+      color: white;
+      width: max-content;
+      padding: 10px;
+      border-radius: 5px;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -150%);
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.5s;
+
+      &::after {
+        content: "";
+        position: absolute;
+        background-color: black;
+        height: 15px;
+        width: 15px;
+        transform: translate(-50%, 50%) rotate(45deg);
+        left: 50%;
+        bottom: 0;
+      }
+    }
+  }
+}
