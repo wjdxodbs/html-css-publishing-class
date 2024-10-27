@@ -11,9 +11,10 @@ import HoverBasic from "./components/HoverBasic";
 import Hover1 from "./components/Hover1";
 import Hover2 from "./components/Hover2";
 import Hover3 from "./components/Hover3";
+import Hover4 from "./components/Hover4";
 
 function App() {
-  return <Hover3 />;
+  return <Hover4 />;
 }
 
 export default App;

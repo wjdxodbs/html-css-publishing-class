@@ -2,7 +2,7 @@ import "./Hover1.css";
 
 const Hover1 = () => {
   return (
-    <div className="items">
+    <div className="itemss">
       <div className="item">
         <img
           src="https://cdn-icons-png.flaticon.com/512/5220/5220564.png"
