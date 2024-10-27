@@ -12,9 +12,10 @@ import Hover1 from "./components/Hover1";
 import Hover2 from "./components/Hover2";
 import Hover3 from "./components/Hover3";
 import Hover4 from "./components/Hover4";
+import BeforeAfter2 from "./components/BeforeAfter2";
 
 function App() {
-  return <Hover4 />;
+  return <BeforeAfter2 />;
 }
 
 export default App;
