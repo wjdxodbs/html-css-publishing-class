@@ -1,0 +1,43 @@
+.before-after3 {
+  & a {
+    box-sizing: border-box;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    display: inline-block;
+    border: 5px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      inset-inline: 0;
+      height: 0%;
+      background-color: blue;
+      transition: 0.5s;
+    }
+
+    &:hover {
+      &::before {
+        height: 100%;
+      }
+
+      & span {
+        color: white;
+        transform: rotateY(360deg);
+      }
+    }
+
+    & span {
+      font-size: 50px;
+      color: #333;
+      transition: 0.5s;
+    }
+  }
+}

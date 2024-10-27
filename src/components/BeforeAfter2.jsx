@@ -1,6 +1,6 @@
 import "./BeforeAfter2.css";
 
-const BeforeAfter1 = () => {
+const BeforeAfter2 = () => {
   return (
     <ul className="before-after1">
       <li>
@@ -22,4 +22,4 @@ const BeforeAfter1 = () => {
   );
 };
 
-export default BeforeAfter1;
+export default BeforeAfter2;
