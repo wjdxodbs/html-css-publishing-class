@@ -17,9 +17,10 @@ import BeforeAfter2 from "./components/BeforeAfter/BeforeAfter2";
 import BeforeAfter3 from "./components/BeforeAfter/BeforeAfter3";
 import BeforeAfter4 from "./components/BeforeAfter/BeforeAfter4";
 import InputField from "./components/InputField";
+import Check1 from "./components/Check/Check1";
 
 function App() {
-  return <InputField />;
+  return <Check1 />;
 }
 
 export default App;

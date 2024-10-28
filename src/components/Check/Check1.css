@@ -1,0 +1,14 @@
+.check1 {
+  border-radius: 10px;
+  width: 70dvw;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+
+  & .item {
+    & p {
+      display: flex;
+      width: 100%;
+    }
+  }
+}
