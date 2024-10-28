@@ -1,3 +1,4 @@
+import "./App.css";
 import Html5Core from "./components/Html5Core";
 import CssCore from "./components/CssCore";
 import CssFormatting from "./components/CssFormatting";
@@ -15,9 +16,10 @@ import Hover4 from "./components/Hover4";
 import BeforeAfter2 from "./components/BeforeAfter/BeforeAfter2";
 import BeforeAfter3 from "./components/BeforeAfter/BeforeAfter3";
 import BeforeAfter4 from "./components/BeforeAfter/BeforeAfter4";
+import InputField from "./components/InputField";
 
 function App() {
-  return <BeforeAfter4 />;
+  return <InputField />;
 }
 
 export default App;
