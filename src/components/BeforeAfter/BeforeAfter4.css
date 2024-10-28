@@ -1,0 +1,46 @@
+.before-after4 {
+  border: 1px solid yellowgreen;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px yellowgreen;
+  display: flex;
+  gap: 30px;
+  width: fit-content;
+
+  & a {
+    color: #222;
+    text-decoration: none;
+    position: relative;
+    visibility: hidden;
+    overflow: hidden;
+
+    &:hover {
+      &::before {
+        top: -100%;
+      }
+
+      &::after {
+        top: 0;
+      }
+    }
+
+    &::before,
+    &::after {
+      content: attr(data-link);
+      position: absolute;
+      visibility: visible;
+      transition: 0.3s;
+    }
+
+    &::before {
+      left: 0;
+      top: 0;
+    }
+
+    &::after {
+      left: 0;
+      top: 100%;
+      color: yellowgreen;
+    }
+  }
+}
