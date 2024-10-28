@@ -1,0 +1,77 @@
+.check3 {
+  width: 100dvw;
+  height: 100dvh;
+  list-style: none;
+  display: flex;
+
+  & li {
+    flex: 1;
+    border-right: 2px solid #000;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+      flex: 3;
+      filter: grayscale(1);
+
+      & .content {
+        overflow: visible;
+        bottom: 0;
+        transition-delay: 0.3s;
+      }
+    }
+
+    &:first-child {
+      background: url("https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg")
+        no-repeat center center;
+      background-size: cover;
+    }
+
+    &:nth-child(2) {
+      background: url("https://cdn.britannica.com/34/212134-050-A7289400/Lionel-Messi-2018.jpg")
+        no-repeat center center;
+      background-size: cover;
+    }
+
+    &:nth-child(3) {
+      background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV0zyDDiqfA9bi-QKQuxx2HW5tUaWzLRxVCQ&s")
+        no-repeat center center;
+      background-size: cover;
+    }
+
+    &:nth-child(4) {
+      background: url("https://upload.wikimedia.org/wikipedia/commons/6/68/Leo_Messi_%28cropped%29.jpg")
+        no-repeat center center;
+      background-size: cover;
+    }
+
+    &:last-child {
+      border-right: none;
+      background: url("https://fifpro.org/media/fhmfhvkx/messi-world-cup.jpg?rxy=0.48356841796117644,0.31512414378031967&width=1600&height=1024&rnd=133210253587130000")
+        no-repeat center center;
+      background-size: cover;
+    }
+
+    & .content {
+      width: inherit;
+      position: absolute;
+      bottom: -20dvh;
+      inset-inline: 0;
+      background-color: #000;
+      color: #fff;
+      transition: 0.5s;
+      height: 20dvh;
+      padding: 20px;
+
+      & h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      & p {
+        overflow-wrap: break-word;
+      }
+    }
+  }
+}
