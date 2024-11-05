@@ -1,17 +1,15 @@
 .checked3 {
-  height: 100dvh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+  position: relative;
+  width: 300px;
+  height: 300px;
 
   & > input[name="menu"] {
     display: none;
 
     &[id="tab1"]:checked {
       & ~ .slide1 {
-        display: block;
+        opacity: 1;
+        visibility: visible;
       }
 
       & ~ .btn > label[for="tab1"] {
@@ -21,7 +19,8 @@
 
     &[id="tab2"]:checked {
       & ~ .slide2 {
-        display: block;
+        opacity: 1;
+        visibility: visible;
       }
 
       & ~ .btn > label[for="tab2"] {
@@ -31,7 +30,8 @@
 
     &[id="tab3"]:checked {
       & ~ .slide3 {
-        display: block;
+        opacity: 1;
+        visibility: visible;
       }
 
       & ~ .btn > label[for="tab3"] {
@@ -41,18 +41,26 @@
   }
 
   & > .content {
-    display: none;
+    position: absolute;
+    inset: 0;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
 
     & > img {
-      width: 300px;
-      height: 300px;
+      width: 100%;
+      height: 100%;
       object-fit: cover;
     }
   }
 
   & > .btn {
+    position: absolute;
     display: flex;
     gap: 10px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 200%);
 
     & > label {
       width: 20px;
