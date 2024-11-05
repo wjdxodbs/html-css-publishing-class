@@ -20,9 +20,10 @@ import InputField from "./components/InputField";
 import Check1 from "./components/Check/Check1";
 import Check3 from "./components/Check/Check3";
 import Checked1 from "./components/Check/Checked1";
+import Checked3 from "./components/Check/Checked3";
 
 function App() {
-  return <Checked1 />;
+  return <Checked3 />;
 }
 
 export default App;

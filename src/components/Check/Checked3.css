@@ -1,0 +1,65 @@
+.checked3 {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  & > input[name="menu"] {
+    display: none;
+
+    &[id="tab1"]:checked {
+      & ~ .slide1 {
+        display: block;
+      }
+
+      & ~ .btn > label[for="tab1"] {
+        background-color: crimson;
+      }
+    }
+
+    &[id="tab2"]:checked {
+      & ~ .slide2 {
+        display: block;
+      }
+
+      & ~ .btn > label[for="tab2"] {
+        background-color: crimson;
+      }
+    }
+
+    &[id="tab3"]:checked {
+      & ~ .slide3 {
+        display: block;
+      }
+
+      & ~ .btn > label[for="tab3"] {
+        background-color: crimson;
+      }
+    }
+  }
+
+  & > .content {
+    display: none;
+
+    & > img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+
+  & > .btn {
+    display: flex;
+    gap: 10px;
+
+    & > label {
+      width: 20px;
+      height: 20px;
+      background-color: lightgray;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+}
